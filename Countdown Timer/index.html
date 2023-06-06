@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <div id="inputArea">
+      <label for="hours">Hours:</label>
+      <input type="text" id="hours" placeholder="0">
+      <label for="minutes">Minutes:</label>
+      <input type="text" id="minutes" placeholder="0">
+      <label for="seconds">Seconds:</label>
+      <input type="text" id="seconds" placeholder="0">
+      <input type="button" value="Start Countdown" onclick="startCountdown()">
+    </div>
+    <h1 id="time">0:00:00</h1>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
