@@ -9,7 +9,6 @@ const actions = document.querySelector('.actions');
 		const value = e.target.dataset['value'];
 
 		if(value !== undefined) {
-			// I'm good to go.
 			if(value == 'ce') {
 				expression = '';
 				ans.value = 0;
